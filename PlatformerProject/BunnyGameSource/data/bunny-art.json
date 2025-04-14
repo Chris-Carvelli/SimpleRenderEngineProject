@@ -1,0 +1,172 @@
+{"frames": [
+
+{
+	"filename": "bunny1_hurt.png",
+	"frame": {"x":503,"y":204,"w":150,"h":174},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":174},
+	"sourceSize": {"w":150,"h":174}
+},
+{
+	"filename": "bunny1_jump.png",
+	"frame": {"x":653,"y":204,"w":150,"h":181},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":181},
+	"sourceSize": {"w":150,"h":181}
+},
+{
+	"filename": "bunny1_ready.png",
+	"frame": {"x":803,"y":204,"w":120,"h":191},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":191},
+	"sourceSize": {"w":120,"h":191}
+},
+{
+	"filename": "bunny1_stand.png",
+	"frame": {"x":0,"y":395,"w":120,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":201},
+	"sourceSize": {"w":120,"h":201}
+},
+{
+	"filename": "bunny1_walk1.png",
+	"frame": {"x":120,"y":395,"w":120,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":201},
+	"sourceSize": {"w":120,"h":201}
+},
+{
+	"filename": "bunny1_walk2.png",
+	"frame": {"x":240,"y":395,"w":120,"h":207},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":207},
+	"sourceSize": {"w":120,"h":207}
+},
+{
+	"filename": "cloud.png",
+	"frame": {"x":0,"y":204,"w":260,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":260,"h":134},
+	"sourceSize": {"w":260,"h":134}
+},
+{
+	"filename": "ground_snow.png",
+	"frame": {"x":582,"y":0,"w":380,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":380,"h":94},
+	"sourceSize": {"w":380,"h":94}
+},
+{
+	"filename": "ground_snow_broken.png",
+	"frame": {"x":0,"y":94,"w":380,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":380,"h":94},
+	"sourceSize": {"w":380,"h":94}
+},
+{
+	"filename": "ground_snow_small.png",
+	"frame": {"x":380,"y":94,"w":201,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":201,"h":100},
+	"sourceSize": {"w":201,"h":100}
+},
+{
+	"filename": "ground_snow_small_broken.png",
+	"frame": {"x":581,"y":94,"w":200,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":100},
+	"sourceSize": {"w":200,"h":100}
+},
+{
+	"filename": "jetpack.png",
+	"frame": {"x":370,"y":204,"w":133,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":160},
+	"sourceSize": {"w":133,"h":160}
+},
+{
+	"filename": "spike_bottom.png",
+	"frame": {"x":480,"y":0,"w":51,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":87},
+	"sourceSize": {"w":51,"h":87}
+},
+{
+	"filename": "spike_top.png",
+	"frame": {"x":531,"y":0,"w":51,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":87},
+	"sourceSize": {"w":51,"h":87}
+},
+{
+	"filename": "spikes_bottom.png",
+	"frame": {"x":0,"y":0,"w":95,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":95,"h":53},
+	"sourceSize": {"w":95,"h":53}
+},
+{
+	"filename": "spikes_top.png",
+	"frame": {"x":95,"y":0,"w":95,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":95,"h":53},
+	"sourceSize": {"w":95,"h":53}
+},
+{
+	"filename": "spring.png",
+	"frame": {"x":335,"y":0,"w":145,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":77},
+	"sourceSize": {"w":145,"h":77}
+},
+{
+	"filename": "spring_in.png",
+	"frame": {"x":190,"y":0,"w":145,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":57},
+	"sourceSize": {"w":145,"h":57}
+},
+{
+	"filename": "spring_out.png",
+	"frame": {"x":781,"y":94,"w":145,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":110},
+	"sourceSize": {"w":145,"h":110}
+},
+{
+	"filename": "springMan_stand.png",
+	"frame": {"x":260,"y":204,"w":110,"h":141},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":110,"h":141},
+	"sourceSize": {"w":110,"h":141}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bunny-art.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6d74f5d9eab39e55ec77678e02e46be0:0847219a06760136531427308d3452bb:b49d578899325f06cb4ac3ab1873b43f$"
+}
+}

@@ -1,0 +1,234 @@
+{
+	"root": {
+		"name": "_root",
+		"transform": {
+			"position": [ 0, 0, 0 ],
+			"rotation": [ 0, 0, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"components": [],
+		"children": [
+			{
+				"name": "Floor0",
+				"transform": {
+					"position": [ -150, 84, 0 ],
+					"rotation": [ 0, 0, 0 ],
+					"scale": [ 0.5, 0.5, 0.5 ]
+				},
+				"components": [
+					{
+						"typeId": "PLATFORM_BUILDER",
+						"serializedData": {
+							"porous": false
+						}
+					},
+					{
+						"typeId": "COLLISION_SOUND",
+						"serializedData": {
+							"sound_file": "data/350903__cabled_mess__jump_c_03.wav",
+							"sound_volume": 85
+						}
+					}
+				]
+			},
+			{
+				"name": "Floor1",
+				"transform": {
+					"position": [ 40, 84, 0 ],
+					"rotation": [ 0, 0, 0 ],
+					"scale": [ 0.5, 0.5, 0.5 ]
+				},
+				"components": [
+					{
+						"typeId": "PLATFORM_BUILDER",
+						"serializedData": {
+							"porous": false
+						}
+					},
+					{
+						"typeId": "COLLISION_SOUND",
+						"serializedData": {
+							"sound_file": "data/350903__cabled_mess__jump_c_03.wav",
+							"sound_volume": 85
+						}
+					}
+				]
+			},
+			{
+				"name": "Floor2",
+				"transform": {
+					"position": [ 230, 84, 0 ],
+					"rotation": [ 0, 0, 0 ],
+					"scale": [ 0.5, 0.5, 0.5 ]
+				},
+				"components": [
+					{
+						"typeId": "PLATFORM_BUILDER",
+						"serializedData": {
+							"porous": false
+						}
+					},
+					{
+						"typeId": "COLLISION_SOUND",
+						"serializedData": {
+							"sound_file": "data/350903__cabled_mess__jump_c_03.wav",
+							"sound_volume": 85
+						}
+					}
+				]
+			},
+			{
+				"name": "Floor3",
+				"transform": {
+					"position": [ 420, 84, 0 ],
+					"rotation": [ 0, 0, 0 ],
+					"scale": [ 0.5, 0.5, 0.5 ]
+				},
+				"components": [
+					{
+						"typeId": "PLATFORM_BUILDER",
+						"serializedData": {
+							"porous": false
+						}
+					},
+					{
+						"typeId": "COLLISION_SOUND",
+						"serializedData": {
+							"sound_file": "data/350903__cabled_mess__jump_c_03.wav",
+							"sound_volume": 85
+						}
+					}
+				]
+			},
+			{
+				"name": "Platform0",
+				"transform": {
+					"position": [ 300, 252, 0 ],
+					"rotation": [ 0, 0, 0 ],
+					"scale": [ 0.5, 0.5, 0.5 ]
+				},
+				"components": [
+					{
+						"typeId": "PLATFORM_BUILDER",
+						"serializedData": {
+							"porous": false
+						}
+					},
+					{
+						"typeId": "PLATFORM_MOVER",
+						"serializedData": {
+							"yoyo": true,
+							"duration": 2.0,
+							"start": [ 0, 0, 0 ],
+							"end": [ 0, 350, 0 ],
+							"easing": 2
+						}
+					},
+					{
+						"typeId": "COLLISION_SOUND",
+						"serializedData": {
+							"sound_file": "data/350903__cabled_mess__jump_c_03.wav",
+							"sound_volume": 85
+						}
+					}
+				]
+			},
+			{
+				"name": "Cloud1",
+				"transform": {
+					"position": [ 147, 399, 0 ],
+					"rotation": [ 0, 0, 0 ],
+					"scale": [ 0.3, 0.3, 0.3 ]
+				},
+				"components": [
+					{
+						"typeId": "SPRITE_RENDERER",
+						"serializedData": {
+							"atlas": "bunny-art",
+							"sprite": "cloud.png"
+						}
+					}
+				]
+			},
+			{
+				"name": "Player",
+				"transform": {
+					"position": [ 100, 300, 0 ],
+					"rotation": [ 0, 0, 0 ],
+					"scale": [ 0.5, 0.5, 0.5 ]
+				},
+				"components": [
+					{
+						"typeId": "PLAYER_ANIMATOR",
+						"serializedData": {
+							"atlas": "bunny-art",
+							"sprite_falling": "bunny1_jump.png",
+							"sprite_jumping": "bunny1_ready.png",
+							"sprite_dead": "bunny1_hurt.png"
+						}
+					},
+					{
+						"typeId": "PLATFORM_MANAGER",
+						"serializedData": {
+							"size": 1
+						}
+					},
+					{
+						"typeId": "RIGIDBODY",
+						"serializedData": {
+							"bodyType": 2,
+							"isSensor": false,
+							"size": [ 30, 40 ],
+							"density": 1
+						}
+					},
+					{
+						"typeId": "CONTROLLER",
+						"serializedData": {
+							"movSpeed": 1,
+							"jumpStrength": 3
+						}
+					},
+					{
+						"typeId": "SOUND_SYSTEM",
+						"serializedData": {
+
+						}
+					},
+					{
+						"typeId": "POINT_COUNTER",
+						"serializedData": {
+
+						}
+					}
+				],
+				"children": []
+			},
+			{
+				"name": "camera",
+				"transform": {
+					"position": [ 150, 300, 0 ],
+					"rotation": [ 0, 0, 0 ],
+					"scale": [ 1, 1, 1 ]
+				},
+				"components": [
+					{
+						"typeId": "CAMERA",
+						"serializedData": {}
+					},
+					{
+						"typeId": "FOLLOW_TARGET",
+						"serializedData": {
+							"target": "Player",
+							"offsetX": 0,
+							"offsetY": 100,
+							"lockX": true,
+							"lockY": false
+						}
+					}
+				],
+				"children": []
+			}
+		]
+	}
+}
